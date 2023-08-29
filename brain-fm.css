@@ -55,7 +55,7 @@ p2 {
 }
 
 .picture-1{
-  flex: 0 1 600px;
+  flex: 0 1 200px;
   z-index: 0;
 }
 .section-2 {
@@ -72,12 +72,55 @@ p2 {
 
 .brain-and-behavior {
     flex: 0 1 900px;
-  justify-content: space-between;
+  justify-content: space-between; 
+  margin-left: 40px;
 } 
 .section-0 {
   display:flex;
 align-items:center;
 }
-
+images-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.images-container img {
+  flex-shrink: 0;
+}
+.left-side-text {
+  float: left;
+  margin-top: 80px; /* Adjust the margin as needed */
+  width: 50%; /* Adjust the width as needed */
+}
+.right-side-text {
+  float: right;
+  margin-top: 80px; /* Adjust the margin as needed */
+  width: 50%; /* Adjust the width as needed */
+}
+/* Additional styles for text inside the divs */
+.left-side-text h2,
+.right-side-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.left-side-text p,
+.right-side-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.left-side-text a,
+.right-side-text a {
+  color: #FF9900;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.left-side-text a,
+.right-side-text a {
+  color: #FF9900;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: -5px; /* Adjust the margin value as needed */
+}
   
   
