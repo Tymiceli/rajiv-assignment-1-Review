@@ -18,16 +18,17 @@ body {
     border-radius: 30px;
     color:#ffffcc;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 15px 25px;
+    margin-top: 10px;
      }
 
     p1  {font-family:Arial;
-        font-size: 23px;
+        font-size: 30px;
         margin-top:30px;
     }
 
  h1{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
  }
 
@@ -48,52 +49,46 @@ p2 {
 
 .copy-1 {
     flex: 0 0 800px;
-    color: RGB(201, 175, 250);
+    color: RGB(201, 185, 250);
     z-index: 1;
     margin-right: 20px;
-    margin-top: 45px;
+    margin-top: 5px;
 }
 
 .picture-1{
-  flex: 0 1 200px;
-  z-index: 0;
+  flex: 0 1 400px;
+  flex-direction:row;
+  float:right;
 }
 .section-2 {
   display: flex;
   padding: 50px 0px; 
-  flex-direction: row;
-  align-items:center; 
+  flex-direction:row-reverse;
+  justify-content:center; 
+  margin-inline: -700px;
 }
-
 .patented-tech {
   flex: 0 1 500px;  
   margin-right: 20px;
+  justify-content:center;
+  margin-left: 700px;
+  margin-bottom: 1000px;
 }
 
-.brain-and-behavior {
-    flex: 0 1 900px;
-  justify-content: space-between; 
-  margin-left: 40px;
-} 
 .section-0 {
   display:flex;
 align-items:center;
 }
-images-container{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-.images-container img {
-  flex-shrink: 0;
-}
+
+
+
 .left-side-text {
-  float: left;
+ justify-content: center;
   margin-top: 80px; /* Adjust the margin as needed */
   width: 50%; /* Adjust the width as needed */
 }
 .right-side-text {
-  float: right;
+  justify-content:center;
   margin-top: 80px; /* Adjust the margin as needed */
   width: 50%; /* Adjust the width as needed */
 }
@@ -109,18 +104,11 @@ images-container{
   line-height: 1.5;
   margin-bottom: 15px;
 }
-.left-side-text a,
-.right-side-text a {
-  color: #FF9900;
-  text-decoration: underline;
-  font-weight: bold;
-}
-.left-side-text a,
-.right-side-text a {
-  color: #FF9900;
-  text-decoration: underline;
-  font-weight: bold;
-  margin-left: -5px; /* Adjust the margin value as needed */
-}
+
   
+
+h3 {
+  justify-content: center;
+  margin-top:200px;
+}  
   
